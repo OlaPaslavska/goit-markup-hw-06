@@ -242,28 +242,21 @@ button {
 .social-icon-mob-menu {
   fill: #f4f4fd;
 }
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-}
 /* /Mobile menu styles */
 @media screen and (min-width: 768px) {
   .menu-open-btn {
     display: none;
   }
-  .page.nav {
-    display: flex;
-    align-items: center;
-  }
-  .logo {
-    margin-right: 120px;
-  }
   .menu {
     display: flex;
     gap: 40px;
   }
+  .page.nav {
+    display: flex;
+    align-items: center;
+  }
   .menu-link {
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1, 5;
