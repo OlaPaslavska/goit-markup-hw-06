@@ -916,7 +916,8 @@ button {
   visibility: hidden;
 }
 
-.backdrop.is-open {
+.backdrop,
+.is-open {
   opacity: 1;
   visibility: visible;
 }
