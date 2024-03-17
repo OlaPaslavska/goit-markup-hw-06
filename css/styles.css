@@ -406,7 +406,7 @@ button {
     margin-bottom: 36px;
   }
 }
-@media screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
   .my-main-page {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -425,19 +425,20 @@ button {
       url(../images/people-office.jpg);
     padding: 188px 0;
   }
-  @media screen and (min-resolution: 192dpi) {
-    .my-main-page {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/desctop/bg-desctop@2.jpg);
-    }
-  }
   .main-page {
     margin-bottom: 48px;
   }
 }
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .my-main-page {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desctop/bg-desctop@2.jpg);
+  }
+}
+
 /* ---------------/Main page styles------------ */
 /* --------------Section benefits--------------- */
 .benefits {
